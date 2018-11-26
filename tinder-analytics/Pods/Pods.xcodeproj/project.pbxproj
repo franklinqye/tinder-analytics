@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038C424AF83F82192F4E7AC7F260E4AB /* Pods-tinder-analyticsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9707B2BFCE8E8F436AB979869E406A /* Pods-tinder-analyticsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04108AFD9F170803BFE3724EB8AA219D /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 999A2E7DBC60D7F7B48CFF8D63F7EDEE /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06675AC28CE8D535168324F5294A9A64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */; };
+		0C37836E723442EFC7E06D3CE5B00D33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		10570F50E7A022E58345B2E87379FC47 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6889157E8FD3251C94A1652832A5C /* ChameleonFramework-dummy.m */; };
+		1EA1A5E15E3797923F3CE6AB4408B36B /* Pods-tinder-analyticsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B08BD7FC3F4F34D53907515C160918E5 /* Pods-tinder-analyticsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25FB0E8A4A63BDB5F7C6181B13936240 /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C33E8AF35DAC88AD130029818260ADC3 /* ChameleonConstants.m */; };
+		276892DF04E0F27F4A2EF38BC852B246 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D781735B4B0F02861AA589ABA578B8B3 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0A97C72C990D2155DF03AC8AA6B8AB /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E579F883048114943A73443D6D93A0 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AFDAA3340C7ABA4499F143DB6A9CF82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */; };
+		3271C01ADFEB74E8BC01498626FA8FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */; };
+		35F643C342288A86FB95741C943197E3 /* Pods-tinder-analyticsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F5AE087AF2D833C0242404CFE9C9DB /* Pods-tinder-analyticsTests-dummy.m */; };
+		3CC7EEAA4241BFF54BA79EE6E4958486 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C1DB86219625165EFC61F60519573A /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4363699449110B3C00BB8DEB599ECDC8 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AA9265B02C09AA5F32A84B0978449F /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A93ED912575A29583FF2F22030FD2B /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 200530867E26C9CC8ECB431A0FE7A406 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F37F672EE703B5C6D133D0AA48BD69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		5354A57F40250C5923036E9213767267 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9917725C11C070DE8671D11F345C4BE0 /* UILabel+Chameleon.m */; };
+		5C07A8E1608D2C5193D9059911B68094 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA920804EB84D867B2107FF72A536EC /* UIAppearance+Swift.m */; };
+		5DE6E17FE4E3E7D68BAD9260ADEC9593 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1380D3874BEE2AE3EEA9AAD6F743E9 /* UIView+ChameleonPrivate.m */; };
+		649565F0B33703A32BCF4A5D30D1981B /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF28330D8E2F3CAC0A570ABB1596361 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74ED9FC65A400648D16C1FD9247FB27E /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F78E0167C1E75AE8AF2069767759376 /* UIColor+Chameleon.m */; };
+		7551D6D2DE178A4C92E090A741AABCAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		846C3650CC9EDC269D0DAFC7D85AD9DD /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6F9957D16740285DC0221669F5E4A9 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE8E49FF96D45C33ABF40360A08F83C /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 7712E92B88EC1150FDE152157E89FA67 /* Chameleon_.m */; };
+		91B34CBAF8097229FCB23B30874526DD /* Pods-tinder-analyticsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391F341553160D09D01A4684BC4C41C /* Pods-tinder-analyticsUITests-dummy.m */; };
+		95DE1CE06439FEE759501298C0436E4D /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = EC17DE4EDAE5D4A4E43814D4631881FA /* UIButton+Chameleon.m */; };
+		9E9DB644D0AAC35A33C068400E84ECBF /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE451CAC8E691FDD16F6EF9B48B49A5 /* UIImage+ChameleonPrivate.m */; };
+		A00C64F2FAEF1AEF193A06A852F7519C /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A5655587F0AA31848339CC6877A4AA /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36C06A28CDE0AED55995E7998B293D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		A64FF8907015EEA4A8917F54260E93F9 /* Pods-tinder-analytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BED673E70ED5E9C6EC8949B5B304E2FC /* Pods-tinder-analytics-dummy.m */; };
+		AA23FF822AC1CFC7FC07F8D9C882813B /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE01FB5C8B09F94784B5F4AADAF4746 /* UINavigationController+Chameleon.m */; };
+		AC89BDBF1B01A09F8F40F4278B3D8188 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C217667A090DF5AB40BD9A3968C6E10 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE473428EDEA9EEACC16E5C1381390A6 /* Pods-tinder-analytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E301A611E2697B22F18BCB3DF1D3A4 /* Pods-tinder-analytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B02260FB437A7E63B5BAEE54D97E35A9 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E888298CD00B731E833E90AF42E445B /* NSArray+Chameleon.m */; };
+		B2259DE2D05014CA92AF2AFF146ACDA1 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5B96D1A5AF0DF46C75B0CD80CD7904 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B84536EB9A282A3161E70A3B38E22601 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD075DB5F12BD2E5621149F7B6D37B1 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE81BF1D8A6FA485AA575DBE296A7F3F /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEC2D4334940CDBBC56145D901258C8 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF0C1E295B8DC00BCB39851171B6BD50 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBAF8DB20A28883248FFDA0A884F4C9 /* UIColor+ChameleonPrivate.m */; };
+		D4EBFFD4220ADF1964E17F53621EEEB1 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F4549EF26C7B0671E0FE058124719204 /* UIViewController+Chameleon.m */; };
+		DE1388ABE89EB9B3FD648BB25689B689 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = D353C0B45ACD65D172F9F6D68966C2EA /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4465F0C05B4A08F3913D5C9497D0572 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97BF1E438AA8C9286D7D443173BA2F2 /* ChameleonShorthand.swift */; };
+		F497D1CFC5804A3299EE3F5CCF4EA56C /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BEE8928BC95C1F170815BC003D15CB /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED73668AC7DCE22C74924256D771408 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1C0121460675C5F34698762AEF2E32 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3448EFD6230F02F39E945F3E1A9FD299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E27C8B2F18EAE70D2EE4415FD50D48;
+			remoteInfo = ChameleonFramework;
+		};
+		5628CF17EF412BA851F284B1708D0CF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A768AB88F6A6A4A798BA74B592783825;
+			remoteInfo = "Pods-tinder-analytics";
+		};
+		7751999EE031854C0F08B40E031F1685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A768AB88F6A6A4A798BA74B592783825;
+			remoteInfo = "Pods-tinder-analytics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04253511D58ED3B982D3077AF1EA1110 /* Pods-tinder-analyticsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinder-analyticsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C1380D3874BEE2AE3EEA9AAD6F743E9 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		0C20153BE87AE802A95A8453502D0E82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E888298CD00B731E833E90AF42E445B /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		15F5AE087AF2D833C0242404CFE9C9DB /* Pods-tinder-analyticsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinder-analyticsTests-dummy.m"; sourceTree = "<group>"; };
+		19BEE8928BC95C1F170815BC003D15CB /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		1F78E0167C1E75AE8AF2069767759376 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		200530867E26C9CC8ECB431A0FE7A406 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		2CE6889157E8FD3251C94A1652832A5C /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		36AA9265B02C09AA5F32A84B0978449F /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		37BCC3579B8DBBE752FE66C3A48B599D /* Pods-tinder-analytics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinder-analytics-acknowledgements.plist"; sourceTree = "<group>"; };
+		380ACA2A19C6DC2545DA60CBD8404953 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A32C8EEA73395415DFA07C13B55E171 /* Pods-tinder-analytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analytics.release.xcconfig"; sourceTree = "<group>"; };
+		3BD2CF29546FE9586BD862A05345D6C8 /* Pods-tinder-analytics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinder-analytics-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DE451CAC8E691FDD16F6EF9B48B49A5 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		3FE52C473673597FA461BD77175B34A8 /* Pods-tinder-analytics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analytics-frameworks.sh"; sourceTree = "<group>"; };
+		4455E7CEC473D335888365FB19E56282 /* Pods-tinder-analyticsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analyticsUITests-resources.sh"; sourceTree = "<group>"; };
+		45D3ACFE7851706E472ECAFBA0BB2EA2 /* Pods-tinder-analyticsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tinder-analyticsUITests.modulemap"; sourceTree = "<group>"; };
+		4BEC2D4334940CDBBC56145D901258C8 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		51C7E9E0D6602466B9E8101B0D56CA0E /* Pods-tinder-analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analytics.debug.xcconfig"; sourceTree = "<group>"; };
+		551825AD7C4B40D14A3AEFC5DD0ED8CE /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		55C1DB86219625165EFC61F60519573A /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		562177C581CE375B3FBD3CE8CEE5345F /* Pods-tinder-analyticsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinder-analyticsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C217667A090DF5AB40BD9A3968C6E10 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		5DF28330D8E2F3CAC0A570ABB1596361 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		62E301A611E2697B22F18BCB3DF1D3A4 /* Pods-tinder-analytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tinder-analytics-umbrella.h"; sourceTree = "<group>"; };
+		7034DA416A34C2F95D84C8606F18018C /* Pods_tinder_analyticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinder_analyticsTests.framework; path = "Pods-tinder-analyticsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7712E92B88EC1150FDE152157E89FA67 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		7789DC7C6897FCE6FD9B2A69329C1F5F /* Pods-tinder-analyticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analyticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77C524DFCECD3F6FC3D13448150C8132 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		7E9138179DE96CC756989ABF1053E100 /* Pods-tinder-analyticsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tinder-analyticsTests.modulemap"; sourceTree = "<group>"; };
+		8104D300439F647CC0CF2B192C57F428 /* Pods-tinder-analyticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analyticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BA920804EB84D867B2107FF72A536EC /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		8CD075DB5F12BD2E5621149F7B6D37B1 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		8D5B96D1A5AF0DF46C75B0CD80CD7904 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		90C10C2E80E5A435A3F50CC0A2B3D033 /* Pods-tinder-analyticsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analyticsTests-resources.sh"; sourceTree = "<group>"; };
+		9391F341553160D09D01A4684BC4C41C /* Pods-tinder-analyticsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinder-analyticsUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C018CB5E09115C642E7B2EC552A29D /* Pods-tinder-analyticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analyticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9917725C11C070DE8671D11F345C4BE0 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		999A2E7DBC60D7F7B48CFF8D63F7EDEE /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		A29918990857E84125EEF7177B8AA3C8 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		AB3796B3903D00588CCFD9C5521E961E /* Pods-tinder-analyticsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinder-analyticsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB8529F2F36C04E0E80CFB048BC9F3CA /* Pods-tinder-analyticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder-analyticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9707B2BFCE8E8F436AB979869E406A /* Pods-tinder-analyticsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tinder-analyticsTests-umbrella.h"; sourceTree = "<group>"; };
+		B08BD7FC3F4F34D53907515C160918E5 /* Pods-tinder-analyticsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tinder-analyticsUITests-umbrella.h"; sourceTree = "<group>"; };
+		B2316CC470E326CD61AE5B2762C7D8E5 /* Pods_tinder_analyticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinder_analyticsUITests.framework; path = "Pods-tinder-analyticsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B97BF1E438AA8C9286D7D443173BA2F2 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		BA04E8AE94E27F60AD4F35C64A27EF22 /* Pods_tinder_analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinder_analytics.framework; path = "Pods-tinder-analytics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1C0121460675C5F34698762AEF2E32 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		BED673E70ED5E9C6EC8949B5B304E2FC /* Pods-tinder-analytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinder-analytics-dummy.m"; sourceTree = "<group>"; };
+		C33E8AF35DAC88AD130029818260ADC3 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		C962ACFD5BB441C1B84987A046047974 /* Pods-tinder-analyticsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analyticsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C996AC8FF63F558D6E75AC49E5A40295 /* Pods-tinder-analytics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analytics-resources.sh"; sourceTree = "<group>"; };
+		C9E579F883048114943A73443D6D93A0 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		D353C0B45ACD65D172F9F6D68966C2EA /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		D6FCB1A806D213E893C355670C6E8777 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D781735B4B0F02861AA589ABA578B8B3 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		DFF2A2E607EFA60282C6F35DF9941FA9 /* Pods-tinder-analyticsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder-analyticsTests-frameworks.sh"; sourceTree = "<group>"; };
+		E0A5655587F0AA31848339CC6877A4AA /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		E5C8152B5905C16B6B584C53583B30A5 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB18B5025C225B5F93899D8002FB2040 /* Pods-tinder-analyticsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinder-analyticsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC17DE4EDAE5D4A4E43814D4631881FA /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		EF8C9BA5F29BA903294340015DD07F71 /* Pods-tinder-analytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tinder-analytics.modulemap"; sourceTree = "<group>"; };
+		EFBAF8DB20A28883248FFDA0A884F4C9 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		F4549EF26C7B0671E0FE058124719204 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		F700B519EE5D9D8E562C0850F30BC37D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FA6F9957D16740285DC0221669F5E4A9 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		FDE01FB5C8B09F94784B5F4AADAF4746 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D12A381738D42A7B711C2524C78640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C37836E723442EFC7E06D3CE5B00D33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9F68A25D9F22AC58078573655E1C5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7551D6D2DE178A4C92E090A741AABCAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D37409DCDED442F1D7833D99972F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F37F672EE703B5C6D133D0AA48BD69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6E0266A1CDD0DFB1A50CCAAE1E2F10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3271C01ADFEB74E8BC01498626FA8FF5 /* CoreGraphics.framework in Frameworks */,
+				A36C06A28CDE0AED55995E7998B293D2 /* Foundation.framework in Frameworks */,
+				06675AC28CE8D535168324F5294A9A64 /* QuartzCore.framework in Frameworks */,
+				2AFDAA3340C7ABA4499F143DB6A9CF82 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4725EC43CB891FB958E82D265451CEF5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B0E337FD52D06F6DB072C98AA6B7BAE /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				5DF28330D8E2F3CAC0A570ABB1596361 /* Chameleon.h */,
+				8CD075DB5F12BD2E5621149F7B6D37B1 /* Chameleon_.h */,
+				7712E92B88EC1150FDE152157E89FA67 /* Chameleon_.m */,
+				8D5B96D1A5AF0DF46C75B0CD80CD7904 /* ChameleonConstants.h */,
+				C33E8AF35DAC88AD130029818260ADC3 /* ChameleonConstants.m */,
+				BD1C0121460675C5F34698762AEF2E32 /* ChameleonEnums.h */,
+				55C1DB86219625165EFC61F60519573A /* ChameleonMacros.h */,
+				D781735B4B0F02861AA589ABA578B8B3 /* NSArray+Chameleon.h */,
+				0E888298CD00B731E833E90AF42E445B /* NSArray+Chameleon.m */,
+				E0A5655587F0AA31848339CC6877A4AA /* UIAppearance+Swift.h */,
+				8BA920804EB84D867B2107FF72A536EC /* UIAppearance+Swift.m */,
+				200530867E26C9CC8ECB431A0FE7A406 /* UIButton+Chameleon.h */,
+				EC17DE4EDAE5D4A4E43814D4631881FA /* UIButton+Chameleon.m */,
+				4BEC2D4334940CDBBC56145D901258C8 /* UIColor+Chameleon.h */,
+				1F78E0167C1E75AE8AF2069767759376 /* UIColor+Chameleon.m */,
+				FA6F9957D16740285DC0221669F5E4A9 /* UIColor+ChameleonPrivate.h */,
+				EFBAF8DB20A28883248FFDA0A884F4C9 /* UIColor+ChameleonPrivate.m */,
+				5C217667A090DF5AB40BD9A3968C6E10 /* UIImage+ChameleonPrivate.h */,
+				3DE451CAC8E691FDD16F6EF9B48B49A5 /* UIImage+ChameleonPrivate.m */,
+				C9E579F883048114943A73443D6D93A0 /* UILabel+Chameleon.h */,
+				9917725C11C070DE8671D11F345C4BE0 /* UILabel+Chameleon.m */,
+				D353C0B45ACD65D172F9F6D68966C2EA /* UINavigationController+Chameleon.h */,
+				FDE01FB5C8B09F94784B5F4AADAF4746 /* UINavigationController+Chameleon.m */,
+				19BEE8928BC95C1F170815BC003D15CB /* UIView+ChameleonPrivate.h */,
+				0C1380D3874BEE2AE3EEA9AAD6F743E9 /* UIView+ChameleonPrivate.m */,
+				999A2E7DBC60D7F7B48CFF8D63F7EDEE /* UIViewController+Chameleon.h */,
+				F4549EF26C7B0671E0FE058124719204 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		390329A257C4542A9D922AEEDE30270D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C47DE6AC7D4552274BDAED55DC1AD44 /* ChameleonFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C47DE6AC7D4552274BDAED55DC1AD44 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				1B0E337FD52D06F6DB072C98AA6B7BAE /* Default */,
+				890591E5008A0ACAEC48CC9A6CFBE4A9 /* Support Files */,
+				9CA120FDDA8907F9C11DF2DA1F06DDFD /* Swift */,
+			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		437D0EC520973515B0672E856F10AE1C /* Pods-tinder-analyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FCB1A806D213E893C355670C6E8777 /* Info.plist */,
+				7E9138179DE96CC756989ABF1053E100 /* Pods-tinder-analyticsTests.modulemap */,
+				AB3796B3903D00588CCFD9C5521E961E /* Pods-tinder-analyticsTests-acknowledgements.markdown */,
+				562177C581CE375B3FBD3CE8CEE5345F /* Pods-tinder-analyticsTests-acknowledgements.plist */,
+				15F5AE087AF2D833C0242404CFE9C9DB /* Pods-tinder-analyticsTests-dummy.m */,
+				DFF2A2E607EFA60282C6F35DF9941FA9 /* Pods-tinder-analyticsTests-frameworks.sh */,
+				90C10C2E80E5A435A3F50CC0A2B3D033 /* Pods-tinder-analyticsTests-resources.sh */,
+				AE9707B2BFCE8E8F436AB979869E406A /* Pods-tinder-analyticsTests-umbrella.h */,
+				AB8529F2F36C04E0E80CFB048BC9F3CA /* Pods-tinder-analyticsTests.debug.xcconfig */,
+				8104D300439F647CC0CF2B192C57F428 /* Pods-tinder-analyticsTests.release.xcconfig */,
+			);
+			name = "Pods-tinder-analyticsTests";
+			path = "Target Support Files/Pods-tinder-analyticsTests";
+			sourceTree = "<group>";
+		};
+		4725EC43CB891FB958E82D265451CEF5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */,
+				749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */,
+				F8205DCE243CEBCEAAFFDB2563B65CD4 /* QuartzCore.framework */,
+				EBE2CE86CEAA9896D6244DE9999C4B48 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48B2FF6D3C84B59DC06024FBD6ACAA1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6753E10ECECBD22C67AAB0257DB1FBBA /* Pods-tinder-analytics */,
+				437D0EC520973515B0672E856F10AE1C /* Pods-tinder-analyticsTests */,
+				9CC33227BF2490D8E6CFCCB6864108FC /* Pods-tinder-analyticsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6753E10ECECBD22C67AAB0257DB1FBBA /* Pods-tinder-analytics */ = {
+			isa = PBXGroup;
+			children = (
+				F700B519EE5D9D8E562C0850F30BC37D /* Info.plist */,
+				EF8C9BA5F29BA903294340015DD07F71 /* Pods-tinder-analytics.modulemap */,
+				3BD2CF29546FE9586BD862A05345D6C8 /* Pods-tinder-analytics-acknowledgements.markdown */,
+				37BCC3579B8DBBE752FE66C3A48B599D /* Pods-tinder-analytics-acknowledgements.plist */,
+				BED673E70ED5E9C6EC8949B5B304E2FC /* Pods-tinder-analytics-dummy.m */,
+				3FE52C473673597FA461BD77175B34A8 /* Pods-tinder-analytics-frameworks.sh */,
+				C996AC8FF63F558D6E75AC49E5A40295 /* Pods-tinder-analytics-resources.sh */,
+				62E301A611E2697B22F18BCB3DF1D3A4 /* Pods-tinder-analytics-umbrella.h */,
+				51C7E9E0D6602466B9E8101B0D56CA0E /* Pods-tinder-analytics.debug.xcconfig */,
+				3A32C8EEA73395415DFA07C13B55E171 /* Pods-tinder-analytics.release.xcconfig */,
+			);
+			name = "Pods-tinder-analytics";
+			path = "Target Support Files/Pods-tinder-analytics";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				390329A257C4542A9D922AEEDE30270D /* Pods */,
+				D3FBFC115FCDF41E999D72BEB9A43D92 /* Products */,
+				48B2FF6D3C84B59DC06024FBD6ACAA1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		890591E5008A0ACAEC48CC9A6CFBE4A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77C524DFCECD3F6FC3D13448150C8132 /* ChameleonFramework.modulemap */,
+				A29918990857E84125EEF7177B8AA3C8 /* ChameleonFramework.xcconfig */,
+				2CE6889157E8FD3251C94A1652832A5C /* ChameleonFramework-dummy.m */,
+				551825AD7C4B40D14A3AEFC5DD0ED8CE /* ChameleonFramework-prefix.pch */,
+				36AA9265B02C09AA5F32A84B0978449F /* ChameleonFramework-umbrella.h */,
+				0C20153BE87AE802A95A8453502D0E82 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		9CA120FDDA8907F9C11DF2DA1F06DDFD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B97BF1E438AA8C9286D7D443173BA2F2 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		9CC33227BF2490D8E6CFCCB6864108FC /* Pods-tinder-analyticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				380ACA2A19C6DC2545DA60CBD8404953 /* Info.plist */,
+				45D3ACFE7851706E472ECAFBA0BB2EA2 /* Pods-tinder-analyticsUITests.modulemap */,
+				EB18B5025C225B5F93899D8002FB2040 /* Pods-tinder-analyticsUITests-acknowledgements.markdown */,
+				04253511D58ED3B982D3077AF1EA1110 /* Pods-tinder-analyticsUITests-acknowledgements.plist */,
+				9391F341553160D09D01A4684BC4C41C /* Pods-tinder-analyticsUITests-dummy.m */,
+				C962ACFD5BB441C1B84987A046047974 /* Pods-tinder-analyticsUITests-frameworks.sh */,
+				4455E7CEC473D335888365FB19E56282 /* Pods-tinder-analyticsUITests-resources.sh */,
+				B08BD7FC3F4F34D53907515C160918E5 /* Pods-tinder-analyticsUITests-umbrella.h */,
+				96C018CB5E09115C642E7B2EC552A29D /* Pods-tinder-analyticsUITests.debug.xcconfig */,
+				7789DC7C6897FCE6FD9B2A69329C1F5F /* Pods-tinder-analyticsUITests.release.xcconfig */,
+			);
+			name = "Pods-tinder-analyticsUITests";
+			path = "Target Support Files/Pods-tinder-analyticsUITests";
+			sourceTree = "<group>";
+		};
+		D3FBFC115FCDF41E999D72BEB9A43D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C8152B5905C16B6B584C53583B30A5 /* ChameleonFramework.framework */,
+				BA04E8AE94E27F60AD4F35C64A27EF22 /* Pods_tinder_analytics.framework */,
+				7034DA416A34C2F95D84C8606F18018C /* Pods_tinder_analyticsTests.framework */,
+				B2316CC470E326CD61AE5B2762C7D8E5 /* Pods_tinder_analyticsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04042FD19CBE4B5002B8BE02633F87C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038C424AF83F82192F4E7AC7F260E4AB /* Pods-tinder-analyticsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F4F6201329D8C6C2F16E1E262DD96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE473428EDEA9EEACC16E5C1381390A6 /* Pods-tinder-analytics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9477E1C247F389CAD234C8ACC63588D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649565F0B33703A32BCF4A5D30D1981B /* Chameleon.h in Headers */,
+				B84536EB9A282A3161E70A3B38E22601 /* Chameleon_.h in Headers */,
+				B2259DE2D05014CA92AF2AFF146ACDA1 /* ChameleonConstants.h in Headers */,
+				FED73668AC7DCE22C74924256D771408 /* ChameleonEnums.h in Headers */,
+				4363699449110B3C00BB8DEB599ECDC8 /* ChameleonFramework-umbrella.h in Headers */,
+				3CC7EEAA4241BFF54BA79EE6E4958486 /* ChameleonMacros.h in Headers */,
+				276892DF04E0F27F4A2EF38BC852B246 /* NSArray+Chameleon.h in Headers */,
+				A00C64F2FAEF1AEF193A06A852F7519C /* UIAppearance+Swift.h in Headers */,
+				47A93ED912575A29583FF2F22030FD2B /* UIButton+Chameleon.h in Headers */,
+				BE81BF1D8A6FA485AA575DBE296A7F3F /* UIColor+Chameleon.h in Headers */,
+				846C3650CC9EDC269D0DAFC7D85AD9DD /* UIColor+ChameleonPrivate.h in Headers */,
+				AC89BDBF1B01A09F8F40F4278B3D8188 /* UIImage+ChameleonPrivate.h in Headers */,
+				2A0A97C72C990D2155DF03AC8AA6B8AB /* UILabel+Chameleon.h in Headers */,
+				DE1388ABE89EB9B3FD648BB25689B689 /* UINavigationController+Chameleon.h in Headers */,
+				F497D1CFC5804A3299EE3F5CCF4EA56C /* UIView+ChameleonPrivate.h in Headers */,
+				04108AFD9F170803BFE3724EB8AA219D /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45427E69EA9114C45DBD5399E2DF79C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1A5E15E3797923F3CE6AB4408B36B /* Pods-tinder-analyticsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53E27C8B2F18EAE70D2EE4415FD50D48 /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EF71FAEB8FBE24DD603B06669D8DC5 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				9477E1C247F389CAD234C8ACC63588D0 /* Headers */,
+				34D2C682C5D6C040E2550F15F8430A2B /* Sources */,
+				B6E0266A1CDD0DFB1A50CCAAE1E2F10B /* Frameworks */,
+				868287D51D90630C4191525BC65F2635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = E5C8152B5905C16B6B584C53583B30A5 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DAA268AEBC46FCEA2BB7F803CEBE239 /* Pods-tinder-analyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345CC734E6DDF84E12FAC2E8B11FB0FB /* Build configuration list for PBXNativeTarget "Pods-tinder-analyticsTests" */;
+			buildPhases = (
+				04042FD19CBE4B5002B8BE02633F87C2 /* Headers */,
+				A4AA1843EE5F0287F37503C7090E9962 /* Sources */,
+				62D12A381738D42A7B711C2524C78640 /* Frameworks */,
+				12F23EAE4A45D4586DF008D106C8F9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B0A45CDEDAFBCB6BF4A79672748C0B /* PBXTargetDependency */,
+			);
+			name = "Pods-tinder-analyticsTests";
+			productName = "Pods-tinder-analyticsTests";
+			productReference = 7034DA416A34C2F95D84C8606F18018C /* Pods_tinder_analyticsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A768AB88F6A6A4A798BA74B592783825 /* Pods-tinder-analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368F2B283E2BD83A61836B0D2539D533 /* Build configuration list for PBXNativeTarget "Pods-tinder-analytics" */;
+			buildPhases = (
+				660F4F6201329D8C6C2F16E1E262DD96 /* Headers */,
+				F2EB98F8B8D3EE83BE3998E2F81F887E /* Sources */,
+				7D9F68A25D9F22AC58078573655E1C5F /* Frameworks */,
+				8BECCD09517A5A43C0B6035001C6E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9363BD07F62E6E407791ABD45AD60BAA /* PBXTargetDependency */,
+			);
+			name = "Pods-tinder-analytics";
+			productName = "Pods-tinder-analytics";
+			productReference = BA04E8AE94E27F60AD4F35C64A27EF22 /* Pods_tinder_analytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F86A1B64F13C3633C5657C594459595B /* Pods-tinder-analyticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83C3271723DC35850826C909A529314 /* Build configuration list for PBXNativeTarget "Pods-tinder-analyticsUITests" */;
+			buildPhases = (
+				E45427E69EA9114C45DBD5399E2DF79C /* Headers */,
+				8A8864C9A600C24CE1F405FCA25AE155 /* Sources */,
+				8F0D37409DCDED442F1D7833D99972F9 /* Frameworks */,
+				0BC4EDBD48A9ACF7457A73B97C4E0821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD8A64B5EE60A6B399A772DBFFD9701B /* PBXTargetDependency */,
+			);
+			name = "Pods-tinder-analyticsUITests";
+			productName = "Pods-tinder-analyticsUITests";
+			productReference = B2316CC470E326CD61AE5B2762C7D8E5 /* Pods_tinder_analyticsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D3FBFC115FCDF41E999D72BEB9A43D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E27C8B2F18EAE70D2EE4415FD50D48 /* ChameleonFramework */,
+				A768AB88F6A6A4A798BA74B592783825 /* Pods-tinder-analytics */,
+				5DAA268AEBC46FCEA2BB7F803CEBE239 /* Pods-tinder-analyticsTests */,
+				F86A1B64F13C3633C5657C594459595B /* Pods-tinder-analyticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC4EDBD48A9ACF7457A73B97C4E0821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12F23EAE4A45D4586DF008D106C8F9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868287D51D90630C4191525BC65F2635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BECCD09517A5A43C0B6035001C6E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D2C682C5D6C040E2550F15F8430A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE8E49FF96D45C33ABF40360A08F83C /* Chameleon_.m in Sources */,
+				25FB0E8A4A63BDB5F7C6181B13936240 /* ChameleonConstants.m in Sources */,
+				10570F50E7A022E58345B2E87379FC47 /* ChameleonFramework-dummy.m in Sources */,
+				E4465F0C05B4A08F3913D5C9497D0572 /* ChameleonShorthand.swift in Sources */,
+				B02260FB437A7E63B5BAEE54D97E35A9 /* NSArray+Chameleon.m in Sources */,
+				5C07A8E1608D2C5193D9059911B68094 /* UIAppearance+Swift.m in Sources */,
+				95DE1CE06439FEE759501298C0436E4D /* UIButton+Chameleon.m in Sources */,
+				74ED9FC65A400648D16C1FD9247FB27E /* UIColor+Chameleon.m in Sources */,
+				CF0C1E295B8DC00BCB39851171B6BD50 /* UIColor+ChameleonPrivate.m in Sources */,
+				9E9DB644D0AAC35A33C068400E84ECBF /* UIImage+ChameleonPrivate.m in Sources */,
+				5354A57F40250C5923036E9213767267 /* UILabel+Chameleon.m in Sources */,
+				AA23FF822AC1CFC7FC07F8D9C882813B /* UINavigationController+Chameleon.m in Sources */,
+				5DE6E17FE4E3E7D68BAD9260ADEC9593 /* UIView+ChameleonPrivate.m in Sources */,
+				D4EBFFD4220ADF1964E17F53621EEEB1 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8864C9A600C24CE1F405FCA25AE155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B34CBAF8097229FCB23B30874526DD /* Pods-tinder-analyticsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AA1843EE5F0287F37503C7090E9962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F643C342288A86FB95741C943197E3 /* Pods-tinder-analyticsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EB98F8B8D3EE83BE3998E2F81F887E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64FF8907015EEA4A8917F54260E93F9 /* Pods-tinder-analytics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B0A45CDEDAFBCB6BF4A79672748C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-tinder-analytics";
+			target = A768AB88F6A6A4A798BA74B592783825 /* Pods-tinder-analytics */;
+			targetProxy = 7751999EE031854C0F08B40E031F1685 /* PBXContainerItemProxy */;
+		};
+		9363BD07F62E6E407791ABD45AD60BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 53E27C8B2F18EAE70D2EE4415FD50D48 /* ChameleonFramework */;
+			targetProxy = 3448EFD6230F02F39E945F3E1A9FD299 /* PBXContainerItemProxy */;
+		};
+		BD8A64B5EE60A6B399A772DBFFD9701B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-tinder-analytics";
+			target = A768AB88F6A6A4A798BA74B592783825 /* Pods-tinder-analytics */;
+			targetProxy = 5628CF17EF412BA851F284B1708D0CF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C2630F2D9A10ECBCE647910D3E3CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29918990857E84125EEF7177B8AA3C8 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		095F668BC2BF75676E648F9311B904A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C7E9E0D6602466B9E8101B0D56CA0E /* Pods-tinder-analytics.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analytics/Pods-tinder-analytics.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		141925E3949E11E11DDE928D56079A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29918990857E84125EEF7177B8AA3C8 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B2924A1523DF20735A776549CDE7766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8104D300439F647CC0CF2B192C57F428 /* Pods-tinder-analyticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analyticsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analyticsTests/Pods-tinder-analyticsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BBA4AA254DCFB86567ABA39018529CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8529F2F36C04E0E80CFB048BC9F3CA /* Pods-tinder-analyticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analyticsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analyticsTests/Pods-tinder-analyticsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B745BAF30B97493BE9FC1DFC347069F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7789DC7C6897FCE6FD9B2A69329C1F5F /* Pods-tinder-analyticsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analyticsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analyticsUITests/Pods-tinder-analyticsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD30DB49E08DD610B7FB9F19774050DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A32C8EEA73395415DFA07C13B55E171 /* Pods-tinder-analytics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analytics/Pods-tinder-analytics.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5BAA56F9C27A042DEBBE446C789B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C018CB5E09115C642E7B2EC552A29D /* Pods-tinder-analyticsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder-analyticsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder-analyticsUITests/Pods-tinder-analyticsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		345CC734E6DDF84E12FAC2E8B11FB0FB /* Build configuration list for PBXNativeTarget "Pods-tinder-analyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BBA4AA254DCFB86567ABA39018529CD /* Debug */,
+				1B2924A1523DF20735A776549CDE7766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368F2B283E2BD83A61836B0D2539D533 /* Build configuration list for PBXNativeTarget "Pods-tinder-analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				095F668BC2BF75676E648F9311B904A3 /* Debug */,
+				CD30DB49E08DD610B7FB9F19774050DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EF71FAEB8FBE24DD603B06669D8DC5 /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141925E3949E11E11DDE928D56079A9D /* Debug */,
+				01C2630F2D9A10ECBCE647910D3E3CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83C3271723DC35850826C909A529314 /* Build configuration list for PBXNativeTarget "Pods-tinder-analyticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BAA56F9C27A042DEBBE446C789B3EE /* Debug */,
+				B745BAF30B97493BE9FC1DFC347069F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
