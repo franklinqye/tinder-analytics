@@ -18,6 +18,11 @@ class AnalyticsTableViewController: UIViewController, UITableViewDelegate, UITab
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.analyticsTable.delegate = self
+        self.analyticsTable.dataSource = self
+        
+        backgroundView.backgroundColor = tertiary
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,7 +45,6 @@ class AnalyticsTableViewController: UIViewController, UITableViewDelegate, UITab
         //            cell.usernameLabel.text = post.username
         //            cell.timeElapsedLabel.text = post.getTimeElapsedString()
         //        }
-        print("cell name")
         return cell
     }
     

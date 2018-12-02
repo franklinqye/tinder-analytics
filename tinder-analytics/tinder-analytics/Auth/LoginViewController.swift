@@ -8,6 +8,7 @@
 
 import UIKit
 import ChameleonFramework
+import FirebaseAuth
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
     
@@ -26,7 +27,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         self.usernameField.delegate = self
+        usernameField.placeholder = "Email"
         self.passwordField.delegate = self
+        passwordField.placeholder = "Password"
         
         loginButton.layer.cornerRadius = 5;
         loginButton.layer.masksToBounds = true
@@ -42,12 +45,54 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func loginPressed(_ sender: Any) {
-        performSegue(withIdentifier: "loginToAuth", sender: nil)
+        
+        guard let emailText = usernameField.text else { return }
+        guard let passwordText = passwordField.text else { return }
+        
+        if emailText == "" || passwordText == "" {
+            //Alert to tell the user that there was an error because they didn't fill anything in the textfields
+            let alertController = UIAlertController(title: "Log In Error", message: "Please enter an email and password.", preferredStyle: .alert)
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            self.present(alertController, animated: true, completion: nil)
+        }
+        else {
+            // email and password fields are not blank, let's try logging in the user!
+            // you'll need to use `emailText` and `passwordText`, and a method found in this
+            // api doc https://firebase.google.com/docs/auth/ios/start
+            Auth.auth().signIn(withEmail: emailText, password: passwordText) { (user, error) in
+                if error == nil {
+                    self.performSegue(withIdentifier: "loginToAuth", sender: nil)
+                } else {
+                    let alertController = UIAlertController(title: "Log In Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    alertController.addAction(defaultAction)
+                    self.present(alertController, animated: true, completion: nil)
+                }
+            }
+            // if the error == nil, segue to the main page using `performSegue` with identifier
+            // `segueLogInToMainPage`
+            // if there is an error signing in (error != nil), present the following alert:
+            
+            //    let alertController = UIAlertController(title: "Log In Error", message:
+            //                        error?.localizedDescription, preferredStyle: .alert)
+            //    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            //    alertController.addAction(defaultAction)
+            //    self.present(alertController, animated: true, completion: nil)
+        }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //YOUR CODE HERE
+//        if let _ = Auth.auth().currentUser {
+//            performSegue(withIdentifier: "loginToTabs", sender: nil)
+//        }
     }
     
     @IBAction func signupPressed(_ sender: Any) {
         performSegue(withIdentifier: "loginToSignup", sender: nil)
     }
+    
     
     func hasAccount(status stat:Bool) {
         if stat {

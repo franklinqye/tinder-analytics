@@ -7,7 +7,14 @@ target 'tinder-analytics' do
 
   # Pods for tinder-analytics
     pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
-
+    pod 'Firebase/Core'
+    pod 'FirebaseAuth'
+    pod 'FirebaseStorage'
+    pod 'SDWebImage'
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'FirebaseDatabase'
+    
   target 'tinder-analyticsTests' do
     inherit! :search_paths
     # Pods for testing

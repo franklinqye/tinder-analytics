@@ -9,6 +9,7 @@
 import Foundation
 import ChameleonFramework
 import UIKit
+import FirebaseAuth
 
 class HistoryTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -17,9 +18,11 @@ class HistoryTableViewController: UIViewController, UITableViewDelegate, UITable
     @IBOutlet var backgroundView: UIView!
     @IBOutlet weak var historyTable: UITableView!
     
+    var historyRecord:[Record] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateData()
         self.historyTable.delegate = self
         self.historyTable.dataSource = self
 
@@ -27,59 +30,37 @@ class HistoryTableViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        historyTable.reloadData()
-        //updateData() firebase
+        historyRecord = []
+        updateData()
     }
     
-//    func updateData() {
-//        getPosts(user: currentUser) { (posts) in
-//            print("Updating data to table...")
-//            if let posts = posts {
-//                clearThreads()
-//                for post in posts {
-//                    print("adding post:")
-//                    print(post)
-//                    print("Read?")
-//                    print(post.read)
-//                    print("-")
-//                    addPostToThread(post: post)
-//                    getDataFromPath(path: post.postImagePath, completion: { (data) in
-//                        print("getting post data:")
-//                        print(data)
-//                        if let data = data {
-//                            if let image = UIImage(data: data) {
-//                                self.loadedImagesById[post.postId] = image
-//                            }
-//                        }
-//                    })
-//                }
-//                self.postTableView.reloadData()
-//            }
-//            print("END Updating data to table...")
-//        }
-//    }
+    func updateData() {
+        appendHistory(userID: (Auth.auth().currentUser?.uid)!, completion: {record->Void in
+            self.historyRecord.append(record)
+            print("updeated \(record.name) to history")
+            self.historyTable.reloadData()
+        })
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 6
+        return historyRecord.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "historyCell", for: indexPath) as! HistoryTableViewCell
-//        if let post = getPostFromIndexPath(indexPath: indexPath) {
-//            if post.read {
-//                cell.readImageView.image = UIImage(named: "read")
-//            }
-//            else {
-//                cell.readImageView.image = UIImage(named: "unread")
-//            }
-//            cell.usernameLabel.text = post.username
-//            cell.timeElapsedLabel.text = post.getTimeElapsedString()
-//        }
+        if historyRecord.endIndex > indexPath.row {
+            let record = historyRecord[indexPath.row]
+            cell.name.text = record.name
+            cell.date.text = record.persona
+            cell.status.image = rankImage(rank: record.rank)
+            fetchImage(path: record.picPath, completion: {(image)->Void in
+                cell.profilePic.image = image
+            })
+        }
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "historySelect", sender: nil)
 //        if let post = getPostFromIndexPath(indexPath: indexPath), !post.read {
 //            presentPostImage(forPost: post)
 //            post.read = true

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10f070bd6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "(historyNode[&quot;rank&quot;] as! Int) == nil"
+            continueAfterRunningActions = "No"
+            filePath = "tinder-analytics/Utilities.swift"
+            timestampString = "565344472.315127"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "appendHistory(userID:completion:)"
+            landmarkType = "9">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "@exp@"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in tinder_analytics.appendHistory(userID: Swift.String, completion: (tinder_analytics.Record) -&gt; ()) -&gt; ()"
+                  moduleName = "tinder-analytics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franklinye/Desktop/iOS-Decal/tinder-analytics/tinder-analytics/Utilities.swift"
+                  timestampString = "565237952.4659311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "2217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.String) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in tinder_analytics.appendHistory(userID: Swift.String, completion: (tinder_analytics.Record) -&gt; ()) -&gt; ()"
+                  moduleName = "tinder-analytics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franklinye/Desktop/iOS-Decal/tinder-analytics/tinder-analytics/Utilities.swift"
+                  timestampString = "565237952.4686069"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "profileID == &quot;&quot;"
+            continueAfterRunningActions = "No"
+            filePath = "tinder-analytics/Utilities.swift"
+            timestampString = "565344472.315228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "generateRecord(profileID:completion:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tinder_analytics.generateRecord(profileID: Swift.String, completion: (Swift.String, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "tinder-analytics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franklinye/Desktop/iOS-Decal/tinder-analytics/tinder-analytics/Utilities.swift"
+                  timestampString = "565232115.711301"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in tinder_analytics.generateRecord(profileID: Swift.String, completion: (Swift.String, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "tinder-analytics"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/franklinye/Desktop/iOS-Decal/tinder-analytics/tinder-analytics/Utilities.swift"
+                  timestampString = "565232115.71342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "53">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            condition = "record.name == &quot;name&quot;"
+            continueAfterRunningActions = "No"
+            filePath = "tinder-analytics/History/HistoryTableViewController.swift"
+            timestampString = "565344472.3153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

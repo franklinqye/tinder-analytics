@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseDatabase
 
 class AuthViewController: UIViewController, UITextFieldDelegate {
     
@@ -14,12 +16,22 @@ class AuthViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var subView: UIView!
     @IBOutlet weak var headerLabel: UILabel!
     @IBOutlet weak var usernameField: UITextField!
-    @IBOutlet weak var userPasswordField: UITextField!
+    
+    @IBOutlet weak var mindInput: UITextField!
+    @IBOutlet weak var energyInput: UITextField!
+    @IBOutlet weak var natureInput: UITextField!
+    @IBOutlet weak var tacticsInput: UITextField!
+    @IBOutlet weak var identityInput: UITextField!
+    
     @IBOutlet weak var enterButton: UIButton!
     @IBOutlet weak var backButton: UIButton!
     
     var username: String = ""
-    var userPassword: String = ""
+    var userMind: String = ""
+    var userEnergy: String = ""
+    var userNature: String = ""
+    var userTactics: String = ""
+    var userIdentity: String = ""
     
     
     override func viewDidLoad() {
@@ -38,18 +50,37 @@ class AuthViewController: UIViewController, UITextFieldDelegate {
         setButtonState(button: self.backButton, status: false)
         
         self.usernameField.delegate = self
-        self.userPasswordField.delegate = self
+        usernameField.placeholder = "First Name"
+        self.mindInput.delegate = self
+        mindInput.placeholder = "Mind"
+        self.energyInput.delegate = self
+        energyInput.placeholder = "Energy"
+        self.natureInput.delegate = self
+        natureInput.placeholder = "Nature"
+        self.tacticsInput.delegate = self
+        tacticsInput.placeholder = "Tactics"
+        self.identityInput.delegate = self
+        identityInput.placeholder = "Identity"
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if false {
-            performSegue(withIdentifier: "loginToTabs", sender: nil)
-        }
     }
     
     @IBAction func enterButtonPressed(_ sender: Any) {
-        performSegue(withIdentifier: "authToTabs", sender: nil)
+        for textfield in [mindInput, energyInput, natureInput, tacticsInput, identityInput] {
+            textFieldDidEndEditing(textfield!)
+            if textfield?.text == nil {
+                let alert = UIAlertController(title: "No thread selected", message: "You must select a thread to post your snap to.", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                return
+            }
+        }
+        inputUserTraits(userID: (Auth.auth().currentUser?.uid)!, name: username, mind: Int(userMind)!, energy: Int(userEnergy)!, nature: Int(userNature)!, tactics: Int(userTactics)!, identity: Int(userIdentity)!, completion: {()->Void in
+            self.performSegue(withIdentifier: "authToTabs", sender: nil)
+        })
+        
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {
@@ -65,9 +96,25 @@ class AuthViewController: UIViewController, UITextFieldDelegate {
             if textField.text != nil {
                 self.username = textField.text!
             }
-        } else if textField == self.userPasswordField {
+        } else if textField == self.mindInput {
             if textField.text != nil {
-                self.userPassword = textField.text!
+                self.userMind = textField.text!
+            }
+        } else if textField == self.energyInput {
+            if textField.text != nil {
+                self.userEnergy = textField.text!
+            }
+        } else if textField == self.natureInput {
+            if textField.text != nil {
+                self.userNature = textField.text!
+            }
+        } else if textField == self.tacticsInput {
+            if textField.text != nil {
+                self.userTactics = textField.text!
+            }
+        } else if textField == self.identityInput {
+            if textField.text != nil {
+                self.userIdentity = textField.text!
             }
         }
     }

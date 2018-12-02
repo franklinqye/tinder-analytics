@@ -11,4 +11,9 @@ import ChameleonFramework
 
 class PersonaTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var affinity: UILabel!
+    @IBOutlet weak var confidence: UILabel!
+    @IBOutlet weak var name: UILabel!
+    
+    
 }

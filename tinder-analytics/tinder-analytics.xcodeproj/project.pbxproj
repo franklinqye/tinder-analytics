@@ -14,6 +14,27 @@
 		E51DCDCF219D1BBA00CBD429 /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51DCDCE219D1BBA00CBD429 /* PersonaTableViewController.swift */; };
 		E51DCDD1219D1C9500CBD429 /* PersonaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51DCDD0219D1C9500CBD429 /* PersonaTableViewCell.swift */; };
 		E51DCDD3219D1D5900CBD429 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51DCDD2219D1D5900CBD429 /* ProfileViewController.swift */; };
+		E560AE6721AF48B8002F7A97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E560AE6621AF48B8002F7A97 /* GoogleService-Info.plist */; };
+		E560AE6821AF48B8002F7A97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E560AE6621AF48B8002F7A97 /* GoogleService-Info.plist */; };
+		E560AE6921AF48B8002F7A97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E560AE6621AF48B8002F7A97 /* GoogleService-Info.plist */; };
+		E560AE6C21AF6313002F7A97 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE6B21AF6313002F7A97 /* RecordViewController.swift */; };
+		E560AE6E21AF70B3002F7A97 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE6D21AF70B3002F7A97 /* Utilities.swift */; };
+		E560AE7021AFCBD1002F7A97 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE6F21AFCBD1002F7A97 /* Record.swift */; };
+		E560AE9021B0D31C002F7A97 /* bronze.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8D21B0D31B002F7A97 /* bronze.png */; };
+		E560AE9121B0D31C002F7A97 /* bronze.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8D21B0D31B002F7A97 /* bronze.png */; };
+		E560AE9221B0D31C002F7A97 /* bronze.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8D21B0D31B002F7A97 /* bronze.png */; };
+		E560AE9321B0D31C002F7A97 /* sliver.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8E21B0D31B002F7A97 /* sliver.png */; };
+		E560AE9421B0D31C002F7A97 /* sliver.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8E21B0D31B002F7A97 /* sliver.png */; };
+		E560AE9521B0D31C002F7A97 /* sliver.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8E21B0D31B002F7A97 /* sliver.png */; };
+		E560AE9621B0D31C002F7A97 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8F21B0D31B002F7A97 /* gold.png */; };
+		E560AE9721B0D31C002F7A97 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8F21B0D31B002F7A97 /* gold.png */; };
+		E560AE9821B0D31C002F7A97 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = E560AE8F21B0D31B002F7A97 /* gold.png */; };
+		E560AE9A21B13CB3002F7A97 /* Personas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9921B13CB3002F7A97 /* Personas.swift */; };
+		E560AE9B21B13CB3002F7A97 /* Personas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9921B13CB3002F7A97 /* Personas.swift */; };
+		E560AE9C21B13CB3002F7A97 /* Personas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9921B13CB3002F7A97 /* Personas.swift */; };
+		E560AE9E21B22F6B002F7A97 /* PersonalityPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9D21B22F6B002F7A97 /* PersonalityPackage.swift */; };
+		E560AE9F21B22F6B002F7A97 /* PersonalityPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9D21B22F6B002F7A97 /* PersonalityPackage.swift */; };
+		E560AEA021B22F6B002F7A97 /* PersonalityPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560AE9D21B22F6B002F7A97 /* PersonalityPackage.swift */; };
 		E59E0FDF2193E88A009B02F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E0FDE2193E88A009B02F6 /* AppDelegate.swift */; };
 		E59E0FE12193E88A009B02F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E0FE02193E88A009B02F6 /* ViewController.swift */; };
 		E59E0FE42193E88A009B02F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59E0FE22193E88A009B02F6 /* Main.storyboard */; };
@@ -61,6 +82,15 @@
 		E51DCDCE219D1BBA00CBD429 /* PersonaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTableViewController.swift; sourceTree = "<group>"; };
 		E51DCDD0219D1C9500CBD429 /* PersonaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaTableViewCell.swift; sourceTree = "<group>"; };
 		E51DCDD2219D1D5900CBD429 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E560AE6621AF48B8002F7A97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E560AE6B21AF6313002F7A97 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		E560AE6D21AF70B3002F7A97 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E560AE6F21AFCBD1002F7A97 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		E560AE8D21B0D31B002F7A97 /* bronze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bronze.png; sourceTree = "<group>"; };
+		E560AE8E21B0D31B002F7A97 /* sliver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliver.png; sourceTree = "<group>"; };
+		E560AE8F21B0D31B002F7A97 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		E560AE9921B13CB3002F7A97 /* Personas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personas.swift; sourceTree = "<group>"; };
+		E560AE9D21B22F6B002F7A97 /* PersonalityPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalityPackage.swift; sourceTree = "<group>"; };
 		E59E0FDB2193E88A009B02F6 /* tinder-analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tinder-analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59E0FDE2193E88A009B02F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E59E0FE02193E88A009B02F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +164,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E560AE6A21AF62F9002F7A97 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				E560AE6B21AF6313002F7A97 /* RecordViewController.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
 		E59E0FD22193E889009B02F6 = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +197,8 @@
 		E59E0FDD2193E88A009B02F6 /* tinder-analytics */ = {
 			isa = PBXGroup;
 			children = (
+				E560AE6621AF48B8002F7A97 /* GoogleService-Info.plist */,
+				E560AE6A21AF62F9002F7A97 /* Record */,
 				E59E100D2193E969009B02F6 /* Auth */,
 				E59E100E2193E976009B02F6 /* History */,
 				E59E10102193E9D8009B02F6 /* Profile */,
@@ -167,9 +207,14 @@
 				E59E0FE02193E88A009B02F6 /* ViewController.swift */,
 				E59E0FE22193E88A009B02F6 /* Main.storyboard */,
 				E59E0FE52193E88B009B02F6 /* Assets.xcassets */,
+				E560AE8D21B0D31B002F7A97 /* bronze.png */,
+				E560AE8F21B0D31B002F7A97 /* gold.png */,
+				E560AE8E21B0D31B002F7A97 /* sliver.png */,
 				E59E0FE72193E88B009B02F6 /* LaunchScreen.storyboard */,
 				E59E0FEA2193E88B009B02F6 /* Info.plist */,
 				E5F9CAFC219C4B500055966B /* colorScheme.swift */,
+				E560AE6D21AF70B3002F7A97 /* Utilities.swift */,
+				E560AE9921B13CB3002F7A97 /* Personas.swift */,
 			);
 			path = "tinder-analytics";
 			sourceTree = "<group>";
@@ -207,6 +252,7 @@
 			children = (
 				E5F9CB0E219D03570055966B /* HistoryTableViewCell.swift */,
 				E5F9CB0C219CEE3F0055966B /* HistoryTableViewController.swift */,
+				E560AE6F21AFCBD1002F7A97 /* Record.swift */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -226,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				E51DCDD2219D1D5900CBD429 /* ProfileViewController.swift */,
+				E560AE9D21B22F6B002F7A97 /* PersonalityPackage.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -339,8 +386,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59E0FE92193E88B009B02F6 /* LaunchScreen.storyboard in Resources */,
+				E560AE9321B0D31C002F7A97 /* sliver.png in Resources */,
 				E59E0FE62193E88B009B02F6 /* Assets.xcassets in Resources */,
+				E560AE9621B0D31C002F7A97 /* gold.png in Resources */,
+				E560AE9021B0D31C002F7A97 /* bronze.png in Resources */,
 				E59E0FE42193E88A009B02F6 /* Main.storyboard in Resources */,
+				E560AE6721AF48B8002F7A97 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E560AE6821AF48B8002F7A97 /* GoogleService-Info.plist in Resources */,
+				E560AE9421B0D31C002F7A97 /* sliver.png in Resources */,
+				E560AE9721B0D31C002F7A97 /* gold.png in Resources */,
+				E560AE9121B0D31C002F7A97 /* bronze.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +410,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E560AE6921AF48B8002F7A97 /* GoogleService-Info.plist in Resources */,
+				E560AE9521B0D31C002F7A97 /* sliver.png in Resources */,
+				E560AE9821B0D31C002F7A97 /* gold.png in Resources */,
+				E560AE9221B0D31C002F7A97 /* bronze.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,12 +430,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tinder-analytics/Pods-tinder-analytics-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -459,7 +530,11 @@
 				E51DCDD3219D1D5900CBD429 /* ProfileViewController.swift in Sources */,
 				E5F9CB11219D07CC0055966B /* AnalyticsTableViewController.swift in Sources */,
 				E5F9CB07219C53B50055966B /* LoginViewController.swift in Sources */,
+				E560AE6E21AF70B3002F7A97 /* Utilities.swift in Sources */,
+				E560AE6C21AF6313002F7A97 /* RecordViewController.swift in Sources */,
 				E59E0FE12193E88A009B02F6 /* ViewController.swift in Sources */,
+				E560AE7021AFCBD1002F7A97 /* Record.swift in Sources */,
+				E560AE9E21B22F6B002F7A97 /* PersonalityPackage.swift in Sources */,
 				E5F9CB0F219D03570055966B /* HistoryTableViewCell.swift in Sources */,
 				E5F9CB09219C53FE0055966B /* SignupViewController.swift in Sources */,
 				E59E0FDF2193E88A009B02F6 /* AppDelegate.swift in Sources */,
@@ -468,6 +543,7 @@
 				E51DCDCD219D155100CBD429 /* AnalyticsTableViewCell.swift in Sources */,
 				E51DCDD1219D1C9500CBD429 /* PersonaTableViewCell.swift in Sources */,
 				E51DCDCF219D1BBA00CBD429 /* PersonaTableViewController.swift in Sources */,
+				E560AE9A21B13CB3002F7A97 /* Personas.swift in Sources */,
 				E5F9CAFD219C4B500055966B /* colorScheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +552,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E560AE9B21B13CB3002F7A97 /* Personas.swift in Sources */,
+				E560AE9F21B22F6B002F7A97 /* PersonalityPackage.swift in Sources */,
 				E59E0FF42193E88B009B02F6 /* tinder_analyticsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +562,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E560AE9C21B13CB3002F7A97 /* Personas.swift in Sources */,
+				E560AEA021B22F6B002F7A97 /* PersonalityPackage.swift in Sources */,
 				E59E0FFF2193E88B009B02F6 /* tinder_analyticsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,6 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJHG59Y289;
 				INFOPLIST_FILE = "tinder-analytics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,6 +744,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJHG59Y289;
 				INFOPLIST_FILE = "tinder-analytics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
